@@ -11,5 +11,5 @@ module.exports = defineConfig({
     SID: '2546738MMC'
   },
 
-  // You can also configure custom settings or use the default setupgit
+  // You can also configure custom settings or use the default setup - changes made
 });
