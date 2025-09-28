@@ -10,14 +10,12 @@ SID = '2546738MMC'
 
 compatibility_flags = ["nodejs_compat"]
 
-
 [build.upload]
-  format = "service-worker"
-  assets = {
-    directory = ".open-next/assets",
-    binding = "ASSETS"
-  }
+format = "service-worker"
 
+[build.upload.assets]
+directory = ".open-next/assets"
+binding   = "ASSETS"
 
 # [[services]]
 #  binding = "WORKER_SELF_REFERENCE"
