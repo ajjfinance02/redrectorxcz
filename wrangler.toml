@@ -8,6 +8,7 @@ main = ".open-next/worker.js"
 [vars]
 PROTECT = "7vzxSwpc4Sz/z03rTlgpatg3WNJvyu22GgCzh9XGty4="
 SID = '2546738MMC'
+NODE_VERSION = 22.12.0
 
 # Compatibility flags
 compatibility_flags = ["nodejs_compat", "global_fetch_strictly_public"]
