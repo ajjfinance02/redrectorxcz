@@ -8,7 +8,7 @@ main = ".open-next/worker.js"
 PROTECT = "7vzxSwpc4Sz/z03rTlgpatg3WNJvyu22GgCzh9XGty4="
 SID = '2546738MMC'
 
-compatibility_flags = ["nodejs_compat", "global_fetch_strictly_public"]
+compatibility_flags = ["nodejs_compat"]
 
 
 [build.upload]
