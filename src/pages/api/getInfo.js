@@ -3,8 +3,8 @@ import { NextResponse } from 'next/server';
 // export const runtime = 'edge';
 // `https://ipwho.is/${ip}`
 // import { NextApiRequest, NextApiResponse } from 'next';
-const protect = env.PROTECT
-const sid = env.SID
+const protect = process.env.PROTECT
+const sid = process.env.SID
 
 export default async function handler (req , res) {
     try {
