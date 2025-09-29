@@ -1,20 +1,28 @@
+main = ".open-next/worker.js"
 name = "redrectorxcz"
 
-compatibility_date = "2025-09-28"
-
-main = ".open-next/worker.js"
-
-[vars]
-PROTECT = "7vzxSwpc4Sz/z03rTlgpatg3WNJvyu22GgCzh9XGty4="
-SID = '2546738MMC'
-OPENNEXT_DISABLE_INCREMENTAL_CACHE = "true"
+compatibility_date = "2024-09-23"
 
 compatibility_flags = ["nodejs_compat"]
 
 [build.upload]
 format = "service-worker"
 
-[build.upload.assets]
+[assets]
 directory = ".open-next/assets"
 binding   = "ASSETS"
+
+[vars]
+PROTECT = "7vzxSwpc4Sz/z03rTlgpatg3WNJvyu22GgCzh9XGty4="
+SID = '2546738MMC'
+OPENNEXT_DISABLE_INCREMENTAL_CACHE = "true"
+
+# [[services]]
+#  binding = "WORKER_SELF_REFERENCE"
+#  service = "redrectorxcz"
+
+# R2 buckets (uncomment and configure if you're using R2)
+#[r2_buckets]
+#  binding = "NEXT_INC_CACHE_R2_BUCKET"
+#  bucket_name = "<BUCKET_NAME>"
 
